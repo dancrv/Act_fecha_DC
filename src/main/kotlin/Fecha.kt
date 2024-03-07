@@ -1,6 +1,5 @@
-class Fch(private val d: Int, private val m: Int, private val a: Int) {
-
-
+class Fecha (private val d: Int, private val m: Int, private val a: Int) {
+    
     fun valida(): Boolean {
 
         if (d < 1 || d > 31) return false
